@@ -15,6 +15,7 @@ geopy = "^2.3.0"
 pyspark = "^3.3.2"
 matplotlib = "^3.7.1"
 plotly = "^5.14.1"
+dash = "^2.9.2"
 
 
 [build-system]
