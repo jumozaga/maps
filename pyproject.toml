@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "meusmapas"
+version = "0.1.0"
+description = ""
+authors = ["jumozaga <jumozaga@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+folium = "^0.14.0"
+geopandas = "^0.12.2"
+pandas = "^2.0.0"
+polars = "^0.16.18"
+geopy = "^2.3.0"
+pyspark = "^3.3.2"
+matplotlib = "^3.7.1"
+plotly = "^5.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
